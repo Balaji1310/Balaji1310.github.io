@@ -78,6 +78,7 @@ header > h1{
 .choice:hover{
     cursor: pointer;
     background-color: darkorange;
+    box-shadow: 2px 2px 20px white;
 }
 
 .images{
@@ -98,5 +99,5 @@ header > h1{
     border-color : red;
 }
 .gray-glow{
-    border-color : gray
+    border-color : gray;
 }
