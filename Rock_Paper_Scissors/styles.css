@@ -37,17 +37,18 @@ header > h1{
     color:white;
     font-size: 20px;
     padding: 2px 10px;
+    border-radius: 5px;
 }
 
 #user-label{
     position: absolute;
-    top:30px;
+    top:25px;
     left:-35px;
 
 }
 #computer-label{
     position: absolute;
-    top:30px;
+    top:25px;
     right:-40px;
 
 }
@@ -88,4 +89,14 @@ header > h1{
     margin-top: 20px;
     text-align: center;
     color:white;
+}
+
+.green-glow{
+    border-color : green;
+}
+.red-glow{
+    border-color : red;
+}
+.gray-glow{
+    border-color : gray
 }
